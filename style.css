@@ -1,0 +1,230 @@
+/* common Css Starts */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.full_container {
+  width: 100%;
+  margin: auto;
+}
+.container_width {
+  width: 1160px;
+  margin: auto;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+/* common Css Ends */
+/* Header Section CSS Starts */
+.header_bg {
+  background: #22c3a3;
+  padding: 10px 0;
+}
+.logo a {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header_menu ul {
+  list-style: none;
+}
+.header_menu ul li {
+  display: inline-block;
+}
+.header_menu ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 0 0 25px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  line-height: 48px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header_menu ul li a:hover{
+  color: #000;
+}
+
+/* Header Section CSS Ends */
+
+/* Hero Section Css STarts */
+.hero_section {
+  background: url(img/header-bg01.jpg) no-repeat center;
+  background-size: cover;
+  padding: 150px 0;
+}
+.hero_content h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 68px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+.hero_content h4 {
+  color: #fff;
+  font-size: 21px;
+  padding: 20px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero_btn {
+  margin-top: 30px;
+}
+.hero_btn a {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.hero_btn a:hover{
+  background-color: #032E1D;
+  border-color: #032E1D;
+}
+/* Hero Section Css Ends */
+
+/* Services Section CSS Starts */
+.services_section {
+  background: #fff;
+  padding: 100px 0;
+}
+.section_title {
+  padding-bottom: 60px;
+}
+.section_title h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  
+}
+.service_item {
+  width: 25%;
+  padding: 0 2%;
+}
+.service_item span {
+  font-size: 40px;
+  color: #1abc9c;
+}
+.service_item h3 {
+  font-size: 22px;
+  padding: 20px 0px 10px 0px;
+  font-weight: 700;
+  color: #7a7979;
+}
+hr{
+  border: 1px solid #1abc9c;
+}
+/* Services Section CSS Ends */
+
+/* About section CSS Starts */
+.about_section{
+  padding: 100px;
+}
+
+.about_left_content{
+  width: 45%;
+}
+
+.about_right_content{
+  width: 50%;
+}
+
+.about_right_content h2 {
+  font-size: 20px;
+  color: #7a7979;
+}
+/* About section CSS Ends */
+
+/* Contact US Section CSS STarts */
+.contact_section{
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+
+.contact_items {
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact_info{
+  width: 33.3%;
+}
+
+.contact_info i {
+  color: #1abc9c;
+  padding-bottom: 15px;
+}
+
+.contact_info .info_addr a {
+  color: #000;
+  text-decoration: none;
+}
+/* Contact US Section CSS Ends */
+
+/* Footer Section Starts */
+/* Footer Top */
+.footer_top{
+  background: #1abc9c;
+  padding: 15px 0;
+}
+.footer_top ul{
+  list-style: none;
+}
+.footer_top ul li{
+  display: inline-block;
+}
+.footer_top ul li a{
+  display: inline-block;
+  color: #fff;
+  padding: 0 10px;
+}
+
+/* Footer Bottom */
+.footer_bottom{
+  padding: 10px;
+  background: #222222;
+}
+.footer_bottom p{
+  color: #ddd;
+  margin: 0;
+}
+
+/* Footer Section Ends */
