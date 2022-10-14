@@ -1,0 +1,29 @@
+@media (max-width: 1260px) {
+    .container_width {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+    .floatright {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .hero_content h2 {
+        font-size: 48px;
+    }
+    .hero_content h4 {
+        font-size: 18px;
+    }
+    .hero_btn a {
+        font-size: 18px;
+        padding: 6px 16px;
+    }
+}
